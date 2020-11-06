@@ -1,76 +1,154 @@
-body {
-    position: relative;
+html, body{
     width: 100%;
     margin: 0;
+
 }
 header {
-    position: absolute;
     background-image: url(./imgs/header.png);
+    height: 768px;
     top: 0px;
     left: 0px;
-    width: 1366px;
-    height: 768px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
 }
 .name {
-    position: absolute;
     font-family: eskapade-fraktur, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 42px;
     color: white;
-    top: 43px;
-    left: 62px;
-    width: 222px;
-    height: 53px;
     text-transform: uppercase;
-
+    margin-right: auto;
+    margin-top: 43px;
+    margin-left: 62px;
 }
 .nav {
-    position: absolute;
-    top: 46px;
-    left: 730px;
-    width: 574px;
-    height: 52px;
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
     text-align: right;
-    word-spacing: 25px;
+    margin-top: 46px;
+    margin-right: 62px;
+    flex: 1 1 500px;
 }
 .nav a {
-    letter-spacing: var(--unnamed-character-spacing-0-58);
-    color: var(--unnamed-color-ffffff);
-    letter-spacing: 0.58px;
     color: #FFFFFF;
     opacity: 1;
     text-decoration: none;
     text-transform: uppercase;
+    margin-left: 29px;
 }
 .work {
-    top: 834px;
-    left: 97px;
-    width: 1172px;
-    height: 1384px;
-    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 .workHeading {
-    position: absolute;
-    top: 834px;
-    left: 623px;
-    width: 99px;
-    height: 67px;  
-    font-family: eskapade-fraktur, serif;
-    font-weight: 400;
-    font-style: normal;
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-ef4511);
     text-align: left;
     letter-spacing: 0px;
     color: #EF4511;
     opacity: 1;
-}
-.workNav  {
-
+    margin-top: 66px;
+    font-family: eskapade-fraktur, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 54px;
 }
 .navLink {
+    margin-left: 28.8px;
+}
+.workNav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: black;
+}
+.navLink:hover, .all:hover {
+    color: #EF4511;
+}
+.navBoxes {
+    margin-top: 82px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 101px;
+}
+.navBox {
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 26%;
+    margin-bottom: 61px;
+
+    
+}
+.getInTouch {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./imgs/getintouch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 329px;
+    margin-top: calc(155px - 61px);
+    margin-bottom: 141px;
+    
+}
+.touch {
+    text-transform: capitalize;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 54px;
+    font-family: eskapade-fraktur, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 56px;
+    margin-bottom: 42px;
+}
+.email {
+    background: transparent;
+    border: 2px #ccc solid;
+    width: 525px;
+    height: 70px;
+    text-align: center;
+    font-size: 34px;
+    color: #fff;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+    
+}
+.email::placeholder{
+    color: #fff;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.fa-paper-plane {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 60px;
+    transform: rotate(30deg);
+}
+
