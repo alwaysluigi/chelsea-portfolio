@@ -1,10 +1,14 @@
 body {
+    position: relative;
+    width: 100%;
     margin: 0;
 }
 header {
-    position: relative;
+    position: absolute;
     background-image: url(./imgs/header.png);
-    width: 100%;
+    top: 0px;
+    left: 0px;
+    width: 1366px;
     height: 768px;
 }
 .name {
@@ -16,7 +20,57 @@ header {
     color: white;
     top: 43px;
     left: 62px;
-    width: 221px;
+    width: 222px;
     height: 53px;
+    text-transform: uppercase;
 
 }
+.nav {
+    position: absolute;
+    top: 46px;
+    left: 730px;
+    width: 574px;
+    height: 52px;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-align: right;
+    word-spacing: 25px;
+}
+.nav a {
+    letter-spacing: var(--unnamed-character-spacing-0-58);
+    color: var(--unnamed-color-ffffff);
+    letter-spacing: 0.58px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.work {
+    top: 834px;
+    left: 97px;
+    width: 1172px;
+    height: 1384px;
+    opacity: 1;
+}
+.workHeading {
+    position: absolute;
+    top: 834px;
+    left: 623px;
+    width: 99px;
+    height: 67px;  
+    font-family: eskapade-fraktur, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ef4511);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #EF4511;
+    opacity: 1;
+}
+.workNav  {
+
+}
+.navLink {
