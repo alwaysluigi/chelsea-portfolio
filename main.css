@@ -1,4 +1,4 @@
-html, body{
+body{
     width: 100%;
     margin: 0;
 
@@ -281,5 +281,38 @@ padding-left: 0;;
     width: 306px;
     height: 33px;
     font-size: 30px;
+    
+}
+
+
+
+@media (max-width: 720px) {
+    html, body {
+        width: 100%;
+    }
+    header {
+
+        width: 100%;
+    }
+    .workNav a {
+        font-size: 20px;
+        margin: 0 10px;
+        width: 100%;
+    }
+    .pic1, .pic2 {
+        display: none;
+    }
+    .aboutTitle {
+        margin-left: 100px;
+    }
+    .contactInfo {
+        flex: 1 1 100%;
+    }
+    .form {
+        flex: 1 1 100%;
+    }
+    .copyright {
+        flex: 1 1 100%;
+    }
     
 }
