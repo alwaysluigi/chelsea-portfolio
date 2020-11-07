@@ -152,3 +152,134 @@ header {
     transform: rotate(30deg);
 }
 
+.aboutMe {
+    padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 142px;
+
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 46px;
+    flex: 1 1 45%;
+    padding-top: 0;    
+    margin-bottom: 150px;
+    box-sizing: border-box;
+    padding-right: 40px;
+    
+}
+.aboutImg {
+    flex: 1 1 50%;
+    margin-left: -20px;
+}
+.aboutBody {
+    width: 300px;
+    text-align: justify;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+.aboutTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 300px;
+    text-align: left;
+    font-family: eskapade-fraktur, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #EF4511;
+    font-size: 54px;
+    
+}
+.pic1 {
+    margin-top: -90px;
+
+    margin-bottom: 20px;
+    height: 365px;
+    width: 365px;
+}
+.pic2 {
+    padding-left: 20px;
+    width: 457px;
+    height: 250px;
+}
+footer {
+    display: flex;
+    height: 260px;
+    width: 100%;
+    background: #1E1E1E;
+    color: #FFFFFF;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+.contactInfo {
+    height: 84px;
+    width: 453px;
+    margin-left: 212px;
+    margin-top: 26px;    
+    font-size: 30px;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    flex: 1 1 50%;
+}
+.form {
+    margin-top: 80px;
+    margin-right: 100px;
+}
+form {
+    display: flex;
+    height: 47px;
+    width: 383px;
+    margin-left: auto;
+
+    flex: 1 1 50%;
+    justify-content: flex-end;
+}
+.sayHello {
+    background: transparent;
+    border: 2px solid white;
+    width: calc(383px - 47px);
+    height: 47px;
+}
+.sayHello::placeholder {
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 34px;
+    text-align: center;
+}
+.fa-caret-square-right {
+    font-size: 47px;
+}
+form button {
+color: white;
+background: #1E1E1E;
+border: none;
+margin-left: 0;
+padding-left: 0;;
+
+}
+.copyright {
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 306px;
+    height: 33px;
+    font-size: 30px;
+    
+}
