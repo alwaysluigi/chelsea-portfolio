@@ -70,14 +70,21 @@ header {
 .navLink {
     margin-left: 28.8px;
 }
-.workNav a{
+
+.workNav {
+    display: flex;
+    flex-direction: row;
+}
+.workNav p{
+    font-size: 24px;
     text-decoration: none;
     text-transform: capitalize;
     font-family: mr-eaves-modern, sans-serif;
     font-weight: 400;
-    font-style: normal;
-    font-size: 24px;
     color: black;
+}
+.navLink {
+    margin-left: 10px;
 }
 .navLink:hover, .all:hover {
     color: #EF4511;
@@ -349,12 +356,19 @@ border: none;
         color: #EF4511;
     
     }
-    .workNav a{
+    .workNav {
+        display: flex;
+        flex-direction: row;
+    }
+    .workNav p{
         text-decoration: none;
         text-transform: capitalize;
         font-family: mr-eaves-modern, sans-serif;
         font-weight: 400;
         color: black;
+    }
+    .navLink {
+        margin-left: 10px;
     }
     .navBoxes {
         margin-top: 30px;
@@ -535,12 +549,19 @@ border: none;
             color: #EF4511;
             text-align: center;
         }
-        .workNav a{
+        .workNav {
+            display: flex;
+            flex-direction: row;
+        }
+        .workNav p{
             text-decoration: none;
             text-transform: capitalize;
             font-family: mr-eaves-modern, sans-serif;
             font-weight: 400;
             color: black;
+        }
+        .navLink {
+            margin-left: 10px;
         }
         .navBoxes {
             margin-top: 30px;
