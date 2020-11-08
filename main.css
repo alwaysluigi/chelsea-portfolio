@@ -456,6 +456,13 @@ padding-left: 0;;
         color: black;
         color: #FFFFFF;
     }
+    .sayHello::placeholder {
+        font-family: mr-eaves-modern, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+        color: #fff;
+    }
     .phone {
         text-align: center;
     }
@@ -630,6 +637,13 @@ padding-left: 0;;
             background: transparent;
             border: 2px #ccc solid;
             margin-right: 0;
+        }
+        .sayHello::placeholder {
+            font-family: mr-eaves-modern, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            text-align: center;
+            color: #fff;
         }
         .copyright {
             font-family: mr-eaves-modern, sans-serif;
