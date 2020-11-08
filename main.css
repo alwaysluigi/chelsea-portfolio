@@ -1,3 +1,5 @@
+@media (min-width:769px){
+
 body{
     width: 100%;
     margin: 0;
@@ -286,91 +288,352 @@ padding-left: 0;;
     
 }
 
+}
 
-
-@media (max-width: 320px) {
-    html, body {
+@media (max-width: 768px) and (min-width:426px) {
+    body {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
     header {
-        display: block; 
+        background-image: url(./imgs/header.png);
+        background-position: center;
+        background-size: cover;
+        height: 100px;
     }
-    .workNav a {
-
-        margin: 0 auto;
-        font-size: 20px;
+    img {
         width: 100%;
+        height: auto;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .name {
+        font-family: eskapade-fraktur, serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        text-transform: uppercase;
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    .nav {
+        font-family: mr-eaves-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0;
+        font-size: 15px;
+    
+    }
+    .nav a {
+        color: #FFFFFF;
+        opacity: 1;
+        text-decoration: none;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        padding: 10px;
+        margin: 0;
+    }
+    .navInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .workHeading {
+        font-family: eskapade-fraktur, serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #EF4511;
+    }
+    .workNav a{
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: mr-eaves-modern, sans-serif;
+        font-weight: 400;
+        color: black;
+    }
+    .navBoxes {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .navBox{
+        margin-bottom: 10px;
+        transform: scale(.8)
+    }
+    .getInTouch {
+        display: flex;
+        flex-direction: column;
+        background-image: url(./imgs/getintouch.png);
+        height: 75px;
+        justify-content: center;
+        align-items: center;
+    }
+    .touch {
+        text-transform: uppercase;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+        font-family: eskapade-fraktur, serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff;
+        font-size: 21px;
+    }
+    .email {
+        box-sizing: border-box;
+        margin-left: 25px;
+        font-family: mr-eaves-modern, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 2px solid #fff;
+        background: transparent;
+        text-align: center;
+    }
+    .email::placeholder{
+        color: #fff;
+        font-family: mr-eaves-modern, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 15px;
+    }
+    .fa-paper-plane {
+        color: #fff;
+        margin-left: 5px;
+        transform: rotate(30deg);
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .pic1, .pic2 {
         display: none;
     }
+    .aboutBody {
+        text-align: justify;
+        text-align-last: center;
+        font-family: mr-eaves-modern, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        margin: 20px 10px;
+    }
     .aboutTitle {
-        margin-left: 100px;
-    }
-    .contactInfo {
-        flex: 1 1 100%;
-        margin-left: 10px;
-    }
-    .form {
-        flex: 1 1 100%;
-    }
-    .copyright {
-        flex: 1 1 100%;
-    }
-    .email {
-        width: 175px;
-        height: 50px;
-        margin-left: 10px;
-    }
-    .fa-paper-plane {
-        font-size: 35px;
-    }
-    form {
-        width: 100%;
-    }
-
-    .navBox {
-        display: block;
-        height: 320px;
-        width: 320px;
-    }
-    .navBoxes {
-        margin: auto;
-    }
-    img {
-        max-width: 320px;
-    }
-    .form {
-        margin-right: 0;
-        transform: scale(.75);
-    }
-    footer {
-        align-items: flex-start;
-        font-size: 15px;
-        height: 350px;
-    }
-    .aboutMe {
-        box-sizing: border-box;
-        padding-left: 20px;
-    }
-    .aboutBody, .aboutTitle{
-        box-sizing: border-box;
-        padding-left: 20px;
-    }
-    .text {
-        margin-bottom: 0;
-        padding-right: 0;
+        text-align: left;
+        font-family: eskapade-fraktur, serif;
+        font-weight: 400;
+        color: #EF4511;
+        font-size: 27px;
+        margin-top: 10px;
     }
     .aboutImg {
-        padding: 0;
+        transform: scale(.75);
     }
-    .getInTouch {
-        margin-bottom: 50px;
-        height: 275px;
-        display: block;
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #1E1E1E;
+        color: #FFFFFF;
     }
-    .touch {
+    .phone, .emailFooter {
+        font-family: mr-eaves-modern, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    footer a {
+        text-decoration: none;
+        color: black;
+        color: #FFFFFF;
+    }
+    .phone {
         text-align: center;
     }
-
-}
+    .sayHello {
+        background: transparent;
+        border: 2px #ccc solid;
+        margin-right: 0;
+    }
+    .copyright {
+        font-family: mr-eaves-modern, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    }
+    
+    @media (max-width: 425px) {
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url(./imgs/header.png);
+            background-position: center;
+            background-size: cover;
+            height: 100px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .name {
+            font-family: eskapade-fraktur, serif;
+            font-weight: 400;
+            font-style: normal;
+            color: white;
+            text-transform: uppercase;
+            margin: 10px 0;
+            font-size: 20px;
+        }
+        .nav {
+            font-family: mr-eaves-sans, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        
+        }
+        .nav a {
+            color: #FFFFFF;
+            opacity: 1;
+            text-decoration: none;
+            text-transform: uppercase;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .work {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .workHeading {
+            font-family: eskapade-fraktur, serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #EF4511;
+            text-align: center;
+        }
+        .workNav a{
+            text-decoration: none;
+            text-transform: capitalize;
+            font-family: mr-eaves-modern, sans-serif;
+            font-weight: 400;
+            color: black;
+        }
+        .navBoxes {
+            margin-top: 30px;
+        }
+        .navBox{
+            margin-bottom: 10px;
+        }
+        .getInTouch {
+            display: flex;
+            flex-direction: column;
+            background-image: url(./imgs/getintouch.png);
+            height: 75px;
+            justify-content: center;
+            align-items: center;
+        }
+        .touch {
+            text-transform: uppercase;
+            box-sizing: border-box;
+            padding-bottom: 10px;
+            font-family: eskapade-fraktur, serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #fff;
+        }
+        .email {
+            box-sizing: border-box;
+            margin-left: 25px;
+            font-family: mr-eaves-modern, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            border: 2px solid #fff;
+            background: transparent;
+            text-align: center;
+        }
+        .email::placeholder{
+            color: #fff;
+            font-family: mr-eaves-modern, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        .fa-paper-plane {
+            color: #fff;
+            margin-left: 5px;
+            transform: rotate(30deg);
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .pic1 {
+            display: none;
+        }
+        .aboutBody {
+            text-align: justify;
+            text-align-last: center;
+            font-family: mr-eaves-modern, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            margin: 20px 10px;
+        }
+        .aboutTitle {
+            text-align: left;
+            font-family: eskapade-fraktur, serif;
+            font-weight: 400;
+            color: #EF4511;
+            font-size: 27px;
+            margin-top: 10px;
+        }
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #1E1E1E;
+            color: #FFFFFF;
+        }
+        .phone, .emailFooter {
+            font-family: mr-eaves-modern, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        footer a {
+            text-decoration: none;
+            color: black;
+            color: #FFFFFF;
+        }
+        .phone {
+            text-align: center;
+        }
+        .sayHello {
+            background: transparent;
+            border: 2px #ccc solid;
+            margin-right: 0;
+        }
+        .copyright {
+            font-family: mr-eaves-modern, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        }
