@@ -616,6 +616,9 @@ border: none;
         .pic1 {
             display: none;
         }
+        .pic2 {
+            margin-top: 10px;
+        }
         .aboutBody {
             text-align: justify;
             text-align-last: center;
@@ -633,6 +636,7 @@ border: none;
             margin-top: 10px;
         }
         footer {
+            margin-top: 100px;
             display: flex;
             flex-direction: column;
             justify-content: center;
