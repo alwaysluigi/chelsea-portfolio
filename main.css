@@ -184,6 +184,13 @@ header {
     width: 100%;
     
 }
+.class1 {
+    display: block;
+}
+.navLink,
+.all {
+    cursor: pointer;
+}
 .aboutImg {
     flex: 1 1 50%;
     margin-left: -20px;
@@ -196,6 +203,7 @@ header {
     font-style: normal;
     font-size: 18px;
 }
+#
 .aboutTitle {
     margin-top: 0;
     margin-bottom: 0;

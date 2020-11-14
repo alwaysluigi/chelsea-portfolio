@@ -1,7 +1,8 @@
-var branding = document.getElementById("brandingLink");
-var class1 =  document.getElementById("class1");
+var branding = document.getElementById('brandingLink');
 
-if (branding)
-    branding.addEventListener('click', function (){
-    class1.style.display = "none";
-})
+branding.onclick = () => {
+    var classImg = document.querySelectorAll('.class1');
+    console.log('This click works');
+        classImg.style.display = 'none'
+    }
+    
