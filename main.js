@@ -1,8 +1,8 @@
-var branding = document.getElementById('brandingLink');
+const branding = document.getElementById('brandingLink');
+const classImg = document.querySelector('.class13');
 
 branding.onclick = () => {
-    var classImg = document.querySelectorAll('.class1');
     console.log('This click works');
-        classImg.style.display = 'none'
+    classImg.style.display = "none"
     }
     
